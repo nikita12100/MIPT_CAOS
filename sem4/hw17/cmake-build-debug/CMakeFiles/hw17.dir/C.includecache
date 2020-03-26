@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nikita/CLionProjects/caos/sem4/hw17/17-1.c
+pthread.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+limits.h
+-
+math.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+unistd.h
+-
+

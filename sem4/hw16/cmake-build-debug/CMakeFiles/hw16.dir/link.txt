@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhw16.a  CMakeFiles/hw16.dir/16-0.c.o CMakeFiles/hw16.dir/16-2.c.o
+/usr/bin/ranlib libhw16.a

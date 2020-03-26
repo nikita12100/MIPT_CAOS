@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/inf01_1.dir/main.c.o  -o inf01_1 

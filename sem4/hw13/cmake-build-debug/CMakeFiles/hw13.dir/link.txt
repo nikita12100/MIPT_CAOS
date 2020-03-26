@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/hw13.dir/13-3.c.o  -o hw13 

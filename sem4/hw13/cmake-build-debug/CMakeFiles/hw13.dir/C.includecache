@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nikita/CLionProjects/caos/sem4/hw13/13-3.c
+fcntl.h
+-
+inttypes.h
+-
+unistd.h
+-
+stdio.h
+-
+stdint.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+

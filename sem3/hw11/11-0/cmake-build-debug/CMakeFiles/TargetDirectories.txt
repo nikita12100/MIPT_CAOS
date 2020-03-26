@@ -1,0 +1,3 @@
+/home/nikita/CLionProjects/caos/hw11/11-0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nikita/CLionProjects/caos/hw11/11-0/cmake-build-debug/CMakeFiles/11_0.dir
+/home/nikita/CLionProjects/caos/hw11/11-0/cmake-build-debug/CMakeFiles/edit_cache.dir

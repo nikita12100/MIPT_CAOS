@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nikita/CLionProjects/caos/hw9/09-2/main.c
+fcntl.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+wait.h
+-
+

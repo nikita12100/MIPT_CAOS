@@ -1,0 +1,3 @@
+/home/nikita/CLionProjects/caos/hw9/09-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nikita/CLionProjects/caos/hw9/09-2/cmake-build-debug/CMakeFiles/09_2.dir
+/home/nikita/CLionProjects/caos/hw9/09-2/cmake-build-debug/CMakeFiles/edit_cache.dir

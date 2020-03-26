@@ -1,0 +1,3 @@
+/home/nikita/CLionProjects/caos/sem4/hw13/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nikita/CLionProjects/caos/sem4/hw13/cmake-build-debug/CMakeFiles/hw13.dir
+/home/nikita/CLionProjects/caos/sem4/hw13/cmake-build-debug/CMakeFiles/edit_cache.dir

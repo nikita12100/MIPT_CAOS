@@ -1,0 +1,3 @@
+/home/nikita/CLionProjects/caos/hw2/inf02-2.c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nikita/CLionProjects/caos/hw2/inf02-2.c/cmake-build-debug/CMakeFiles/inf02_2_c.dir
+/home/nikita/CLionProjects/caos/hw2/inf02-2.c/cmake-build-debug/CMakeFiles/edit_cache.dir

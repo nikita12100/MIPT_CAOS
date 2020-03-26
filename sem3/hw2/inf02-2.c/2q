@@ -1,0 +1,38 @@
+        .text
+        .global solve
+
+
+
+solve:
+
+        push {r4}	// save
+	mov r4, #22	// begin from x = 0
+	push {r4}	// our x 
+
+        try:
+                pop {r4}
+
+                mul r0, r0, r4
+                mul r0, r0, r4
+                mul r0, r0, r4
+
+                mul r1, r1, r4
+                mul r1, r1, r4
+
+                mul r3, r3, r4
+
+                add r0, r0, r1          // ax^3 + bx^2
+                add r0, r0, r2          // .. + cx
+                add r0, r0, r3          // .. + d
+
+                add r4, r4, #1
+                push {r4}
+
+                cmp r4, #23
+                beq try
+
+        mov r0, r4
+	pop {r4}	// it x
+	pop {r4}	// it save
+        bx lr
+

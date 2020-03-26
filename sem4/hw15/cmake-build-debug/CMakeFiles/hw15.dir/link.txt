@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/hw15.dir/main.c.o CMakeFiles/hw15.dir/15-0.c.o CMakeFiles/hw15.dir/15-1.c.o CMakeFiles/hw15.dir/testNikita.c.o  -o hw15 

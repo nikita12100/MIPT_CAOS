@@ -1,0 +1,1 @@
+/usr/bin/cc -pthread -lm -g   CMakeFiles/hw17.dir/17-1.c.o  -o hw17 

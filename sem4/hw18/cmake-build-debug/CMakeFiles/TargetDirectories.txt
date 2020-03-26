@@ -1,0 +1,3 @@
+/home/nikita/CLionProjects/caos/sem4/hw18/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nikita/CLionProjects/caos/sem4/hw18/cmake-build-debug/CMakeFiles/hw18.dir
+/home/nikita/CLionProjects/caos/sem4/hw18/cmake-build-debug/CMakeFiles/edit_cache.dir

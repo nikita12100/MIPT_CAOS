@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/11_0.dir/11-1.c.o CMakeFiles/11_0.dir/11-1.test.c.o  -o 11_0 
