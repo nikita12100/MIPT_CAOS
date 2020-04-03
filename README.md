@@ -1,8 +1,8 @@
-#MIPT 2 course CAOS 
+# MIPT 2 course CAOS 
 
-##Languages: C, assembly
+## Languages: C, assembly
 
-##sem3 contain: 
+## sem3 contain: 
 
 Введение в Linux
 
@@ -36,7 +36,7 @@
 
 
 
-##sem4 contain:
+## sem4 contain:
 
 Копии файловых дескрипторов и неименованные каналы
 
