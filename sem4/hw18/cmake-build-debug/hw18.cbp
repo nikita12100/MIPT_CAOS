@@ -78,9 +78,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/nikita/CLionProjects/caos/sem4/hw18/18-0.c">
-			<Option target="hw18"/>
-		</Unit>
 		<Unit filename="/home/nikita/CLionProjects/caos/sem4/hw18/18-1.c">
 			<Option target="hw18"/>
 		</Unit>

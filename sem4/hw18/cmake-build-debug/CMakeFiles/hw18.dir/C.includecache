@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nikita/CLionProjects/caos/sem4/hw18/18-1.c
+string.h
+-
+stdlib.h
+-
+sys/mman.h
+-
+semaphore.h
+-
+unistd.h
+-
+sys/sysinfo.h
+-
+stdio.h
+-
+signal.h
+-
+wait.h
+-
+

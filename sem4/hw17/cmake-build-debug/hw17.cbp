@@ -81,6 +81,9 @@
 		<Unit filename="/home/nikita/CLionProjects/caos/sem4/hw17/17-1.c">
 			<Option target="hw17"/>
 		</Unit>
+		<Unit filename="/home/nikita/CLionProjects/caos/sem4/hw17/17-1v2.c">
+			<Option target="hw17"/>
+		</Unit>
 		<Unit filename="/home/nikita/CLionProjects/caos/sem4/hw17/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

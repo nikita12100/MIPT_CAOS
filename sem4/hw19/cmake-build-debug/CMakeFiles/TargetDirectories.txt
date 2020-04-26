@@ -1,0 +1,3 @@
+/home/nikita/CLionProjects/caos/sem4/hw19/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nikita/CLionProjects/caos/sem4/hw19/cmake-build-debug/CMakeFiles/hw19.dir
+/home/nikita/CLionProjects/caos/sem4/hw19/cmake-build-debug/CMakeFiles/edit_cache.dir

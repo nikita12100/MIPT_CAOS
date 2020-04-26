@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/hw18.dir/18-0.c.o CMakeFiles/hw18.dir/18-1.c.o  -o hw18 
+/usr/bin/cc -g   CMakeFiles/hw18.dir/18-1.c.o  -o hw18 

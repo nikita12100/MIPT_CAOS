@@ -123,33 +123,6 @@ hw18/fast:
 	$(MAKE) -f CMakeFiles/hw18.dir/build.make CMakeFiles/hw18.dir/build
 .PHONY : hw18/fast
 
-18-0.o: 18-0.c.o
-
-.PHONY : 18-0.o
-
-# target to build an object file
-18-0.c.o:
-	$(MAKE) -f CMakeFiles/hw18.dir/build.make CMakeFiles/hw18.dir/18-0.c.o
-.PHONY : 18-0.c.o
-
-18-0.i: 18-0.c.i
-
-.PHONY : 18-0.i
-
-# target to preprocess a source file
-18-0.c.i:
-	$(MAKE) -f CMakeFiles/hw18.dir/build.make CMakeFiles/hw18.dir/18-0.c.i
-.PHONY : 18-0.c.i
-
-18-0.s: 18-0.c.s
-
-.PHONY : 18-0.s
-
-# target to generate assembly for a file
-18-0.c.s:
-	$(MAKE) -f CMakeFiles/hw18.dir/build.make CMakeFiles/hw18.dir/18-0.c.s
-.PHONY : 18-0.c.s
-
 18-1.o: 18-1.c.o
 
 .PHONY : 18-1.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... hw18"
 	@echo "... edit_cache"
-	@echo "... 18-0.o"
-	@echo "... 18-0.i"
-	@echo "... 18-0.s"
 	@echo "... 18-1.o"
 	@echo "... 18-1.i"
 	@echo "... 18-1.s"

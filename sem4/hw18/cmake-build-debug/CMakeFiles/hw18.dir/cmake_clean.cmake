@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hw18.dir/18-0.c.o"
   "CMakeFiles/hw18.dir/18-1.c.o"
   "hw18.pdb"
   "hw18"

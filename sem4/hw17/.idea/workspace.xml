@@ -11,7 +11,43 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e631db80-9e37-4270-b6af-a869510d252d" name="Default Changelist" comment="" />
+    <list default="true" id="e631db80-9e37-4270-b6af-a869510d252d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-1v2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw18/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw19/.idea/hw19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw19/19-1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw20/.idea/hw20.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw20/20-0.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw20/20-1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17-1.c" beforeDir="false" afterPath="$PROJECT_DIR$/17-1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw17.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw17.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw17.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw17.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw17.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw17.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw17.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw17.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw17.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw17.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hw17.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/hw17.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/n" beforeDir="false" afterPath="$PROJECT_DIR$/n" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/18-1.c" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/18-1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/hw18.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/hw18.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/hw18.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/hw18.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/hw18.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/hw18.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/hw18.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/hw18.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/hw18.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/hw18.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/hw18.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/hw18.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/cmake-build-debug/hw18.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/cmake-build-debug/hw18.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw18/n" beforeDir="false" afterPath="$PROJECT_DIR$/../hw18/n" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +58,14 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1ZClb34O9LT7LkqCWLwq84dcgJL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw20" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,10 +104,27 @@
       <updated>1584351024265</updated>
       <workItem from="1584351025551" duration="9885000" />
       <workItem from="1584959779282" duration="623000" />
+      <workItem from="1587146412883" duration="250000" />
+      <workItem from="1587234043924" duration="105000" />
+      <workItem from="1587489002413" duration="1183000" />
+      <workItem from="1587490996737" duration="5813000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

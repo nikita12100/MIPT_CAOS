@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/nikita/CLionProjects/caos/sem4/hw18/18-0.c" "/home/nikita/CLionProjects/caos/sem4/hw18/cmake-build-debug/CMakeFiles/hw18.dir/18-0.c.o"
   "/home/nikita/CLionProjects/caos/sem4/hw18/18-1.c" "/home/nikita/CLionProjects/caos/sem4/hw18/cmake-build-debug/CMakeFiles/hw18.dir/18-1.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

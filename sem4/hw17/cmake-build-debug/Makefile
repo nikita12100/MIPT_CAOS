@@ -150,6 +150,33 @@ hw17/fast:
 	$(MAKE) -f CMakeFiles/hw17.dir/build.make CMakeFiles/hw17.dir/17-1.c.s
 .PHONY : 17-1.c.s
 
+17-1v2.o: 17-1v2.c.o
+
+.PHONY : 17-1v2.o
+
+# target to build an object file
+17-1v2.c.o:
+	$(MAKE) -f CMakeFiles/hw17.dir/build.make CMakeFiles/hw17.dir/17-1v2.c.o
+.PHONY : 17-1v2.c.o
+
+17-1v2.i: 17-1v2.c.i
+
+.PHONY : 17-1v2.i
+
+# target to preprocess a source file
+17-1v2.c.i:
+	$(MAKE) -f CMakeFiles/hw17.dir/build.make CMakeFiles/hw17.dir/17-1v2.c.i
+.PHONY : 17-1v2.c.i
+
+17-1v2.s: 17-1v2.c.s
+
+.PHONY : 17-1v2.s
+
+# target to generate assembly for a file
+17-1v2.c.s:
+	$(MAKE) -f CMakeFiles/hw17.dir/build.make CMakeFiles/hw17.dir/17-1v2.c.s
+.PHONY : 17-1v2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... 17-1.o"
 	@echo "... 17-1.i"
 	@echo "... 17-1.s"
+	@echo "... 17-1v2.o"
+	@echo "... 17-1v2.i"
+	@echo "... 17-1v2.s"
 .PHONY : help
 
 

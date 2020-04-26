@@ -11,8 +11,12 @@
 typedef struct {
     long a;
     long b;
-    int fd;
+    long *prime_number;
     int N;
+    pthread_mutex_t *mutex;
+    pthread_cond_t *cond_var_1;
+    pthread_cond_t *cond_var_2;
+    int *flag;
 }section;
 
 // 0 - mean not prime, 1 - mean prime
@@ -27,20 +31,29 @@ int is_prime(long n) {
 
 void* gen_prime(void *arg) {
     section* sec = arg;
-    int my_fd = sec->fd;  // to connect ro another thread
-    long a = sec->a;    // our section
-    long b = sec->b;
     int N = sec->N;
-    for(long i = a; i <= b; ++i) {  // check all numbers in section
-        if(is_prime(i)) {
-            write(my_fd, &i, sizeof(i));    // if prime transfer them to main thread
-            N--;
+    long current = sec->a;
+
+    while(N > 0){
+        pthread_mutex_lock(sec->mutex);
+
+        while (*sec->flag) {
+            pthread_cond_wait(sec->cond_var_2, sec->mutex);
         }
-        if(N == 0)
-            return NULL;
+        if (is_prime(current)) {
+            N--;
+            *sec->prime_number = current;
+            *sec->flag = 1;
+            pthread_cond_signal(sec->cond_var_1);
+        }
+        current++;
+        pthread_mutex_unlock(sec->mutex);
     }
-    long nothing_was_found = -1; // nothing_was_found
-    write(my_fd, &nothing_was_found, sizeof(nothing_was_found));    // if prime transfer them to main thread
+
+    if (N == sec->N){
+        *sec->prime_number = -1;    // nothing was found
+    }
+
     return NULL;
 }
 
@@ -58,24 +71,39 @@ int main(int argc, char** argv)
     pthread_attr_init(&attr);
     pthread_attr_setstacksize(&attr, PTHREAD_STACK_MIN);
     pthread_attr_setguardsize(&attr, 0);
+    pthread_cond_t cond_var_1 = PTHREAD_COND_INITIALIZER;
+    pthread_cond_t cond_var_2 = PTHREAD_COND_INITIALIZER;
+    pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
     section my_section;
     my_section.a = A;
     my_section.b = B;
-    my_section.fd = fd[0];
     my_section.N = N;
+    my_section.mutex = &mutex;
+    my_section.cond_var_1 = &cond_var_1;
+    my_section.cond_var_2 = &cond_var_2;
+    long *prime_number = malloc(sizeof(long));
+    my_section.prime_number = prime_number;
+    int flag = 0;
+    my_section.flag = &flag;
+
     pthread_create(&my_thread, &attr, gen_prime, &my_section);
     pthread_attr_destroy(&attr);
-    long prime_number;
-    pthread_join(my_thread, NULL);
     while(N > 0){
-        read(fd[1], &prime_number, sizeof(prime_number));
-        if(prime_number == -1) {      // nothing was found
+        pthread_mutex_lock(&mutex);
+        while(!flag){
+            pthread_cond_wait(&cond_var_1, &mutex);
+        }
+        if(*prime_number == -1) {      // nothing was found
             return 0;
         }
         else {
-            printf("%li ", prime_number);
+            printf("%li ", *prime_number);
             N--;
+            flag = 0;
+            pthread_cond_signal(&cond_var_2);
         }
+        pthread_mutex_unlock(&mutex);
     }
+    pthread_join(my_thread, NULL);
 }

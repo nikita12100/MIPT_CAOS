@@ -1,1 +1,1 @@
-/usr/bin/cc -pthread -lm -g   CMakeFiles/hw17.dir/17-1.c.o  -o hw17 
+/usr/bin/cc -pthread -lm -g   CMakeFiles/hw17.dir/17-1.c.o CMakeFiles/hw17.dir/17-1v2.c.o  -o hw17 
