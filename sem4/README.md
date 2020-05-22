@@ -12,7 +12,7 @@ Here will be shortly described themes of tasks.
 20. Realise of `ARP-CLENT` and `UDP-DNS-resolver`.
 21. Realise of `HTTP-GET` and `HTTP-POST` query.
 22. Realise of `SHA-512` and `AES-256-CBC`encode/decode.
-23. Realise of `FUSE` *fylesystem*.
+23. Realise of `FUSE` *filesystem*.
 24. Realise of Python module `pymatrixdot` and `pycrypto`.
 
 Also realising of `futex`, `mutex`, `condvar`, `semaphore` and the same things you can find
