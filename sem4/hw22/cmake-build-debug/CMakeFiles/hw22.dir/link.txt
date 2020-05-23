@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/hw22.dir/main.c.o CMakeFiles/hw22.dir/22-0.c.o CMakeFiles/hw22.dir/22-1.c.o  -o hw22 

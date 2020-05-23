@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/hw23.dir/vova.c.o  -o hw23 
