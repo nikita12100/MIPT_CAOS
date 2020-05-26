@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/hw24.dir/matrix1.c.o  -o hw24  /usr/lib/x86_64-linux-gnu/libpython3.8.so 

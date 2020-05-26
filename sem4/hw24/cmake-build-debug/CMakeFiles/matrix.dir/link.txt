@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -shared  -o matrix.so CMakeFiles/matrix.dir/24-0.c.o  /usr/lib/x86_64-linux-gnu/libpython3.8.so 
